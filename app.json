@@ -1,9 +1,9 @@
 {
   "name": "Play Framework + WebJars",
   "description": "A template for getting started with Play Framework and WebJars.",
-  "website": "http://webjars.org",
+  "website": "https://github.com/sfielder/sample-play2",
+  "repository": "https://github.com/sfielder/sample-play2",
   "success_url": "/",
-  "addons": [],
   "addons": ["rediscloud", "postgres", "newrelic", "papertrail", "lobrato"],
     "APPLICATION_SECRET": {
             "description": "The auto-generated secret which is used for cookie signing and encryption.",
