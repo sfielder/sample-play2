@@ -4,10 +4,11 @@
   "website": "http://webjars.org",
   "success_url": "/",
   "addons": [],
-  "env": {
+  "addons": ["rediscloud", "postgres", "newrelic", "papertrail", "lobrato"],
     "APPLICATION_SECRET": {
             "description": "The auto-generated secret which is used for cookie signing and encryption.",
             "generator": "secret"
     }
   }
 }
+
