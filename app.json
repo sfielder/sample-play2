@@ -1,10 +1,14 @@
+
 {
   "name": "Play Framework + WebJars",
   "description": "A template for getting started with Play Framework and WebJars.",
   "website": "https://github.com/sfielder/sample-play2",
   "repository": "https://github.com/sfielder/sample-play2",
-  "success_url": "/",
-  "addons": ["rediscloud", "postgres", "newrelic", "papertrail", "lobrato"],
+  "logo": "https://playlatam.files.wordpress.com/2012/03/normal.png",
+  "scripts": {},
+  "env": {
+    "RAILS_ENV": "production"
+  },
+  "addons": ["heroku-postgresql", "newrelic:stark", "papertrail", "rediscloud"]
+
 }
-
-
