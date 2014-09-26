@@ -5,10 +5,6 @@
   "repository": "https://github.com/sfielder/sample-play2",
   "success_url": "/",
   "addons": ["rediscloud", "postgres", "newrelic", "papertrail", "lobrato"],
-    "APPLICATION_SECRET": {
-            "description": "The auto-generated secret which is used for cookie signing and encryption.",
-            "generator": "secret"
-    }
 }
 
 
