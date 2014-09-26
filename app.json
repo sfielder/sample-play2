@@ -9,6 +9,6 @@
             "description": "The auto-generated secret which is used for cookie signing and encryption.",
             "generator": "secret"
     }
-  }
 }
+
 
